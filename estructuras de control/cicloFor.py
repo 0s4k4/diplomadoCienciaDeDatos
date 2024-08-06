@@ -21,8 +21,7 @@ print(type(tupla))
 print(type(set))
 print(type(diccionario))
 
-
-print('***** iteraciones **** ')
+Z
 for mi_tupla in tupla:
     print(mi_tupla)
 
