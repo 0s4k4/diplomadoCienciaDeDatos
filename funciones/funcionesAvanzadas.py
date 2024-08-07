@@ -6,3 +6,4 @@ def saludo(nombre):
 nombre = input('introduce tu nombre ')
 saludo(nombre)
 
+###funcion con longitud 
