@@ -1,0 +1,11 @@
+#entornoVirtual
+cienciaDvenv/
+
+##archivo cache de python
+__pycache__/
+
+##archivosConfIDE
+.vscode/
+
+##otros archivos innecesarios
+*.log 
