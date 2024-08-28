@@ -1,7 +1,8 @@
-import pandas as pd
+import pandas as pd ##se establece pd como alias de pandas
 
-dias = [10,28,31,30]
-
-meses=pd.Series(dias,index = {"Enero","Febrero","marzo","abril"})
-
-print(meses)
+versionesPokemon = ["Red and green","Gold and Silver","Ruby and Shapirre","Diaomond and pearl"]
+##lista contiene los datos que se agregara a la serie
+consola = pd.Series(versionesPokemon,index=["Gameboy","Gameboy color","Gameboy Advance","Nintendo DS"])
+##usando index podemos designar nuestras propias labels, por omision estas seran numeros del 0 en adelante
+#se muestra dataframe en la pantalla
+print(consola)
